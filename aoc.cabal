@@ -1,0 +1,23 @@
+cabal-version: 3.6
+name: aoc
+version: 0
+
+common aoc
+  ghc-options: -Wall
+  build-depends:
+    , base
+    , text
+    , attoparsec
+    , containers
+
+executable aoc1
+  import: aoc
+  main-is: aoc1.hs
+
+executable aoc2
+  import: aoc
+  main-is: aoc2.hs
+
+executable aoc3
+  import: aoc
+  main-is: aoc3.hs
