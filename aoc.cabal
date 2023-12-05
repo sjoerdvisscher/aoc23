@@ -25,3 +25,7 @@ executable aoc3
 executable aoc4
   import: aoc
   main-is: aoc4.hs
+
+executable aoc5
+  import: aoc
+  main-is: aoc5.hs
