@@ -33,3 +33,7 @@ executable aoc5
 executable aoc6
   import: aoc
   main-is: aoc6.hs
+
+executable aoc7
+  import: aoc
+  main-is: aoc7.hs
