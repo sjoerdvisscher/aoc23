@@ -41,3 +41,7 @@ executable aoc7
 executable aoc8
   import: aoc
   main-is: aoc8.hs
+
+executable aoc9
+  import: aoc
+  main-is: aoc9.hs
