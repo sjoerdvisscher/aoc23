@@ -9,6 +9,7 @@ common aoc
     , text
     , attoparsec
     , containers
+    , array
 
 executable aoc1
   import: aoc
@@ -45,3 +46,7 @@ executable aoc8
 executable aoc9
   import: aoc
   main-is: aoc9.hs
+
+executable aoc10
+  import: aoc
+  main-is: aoc10.hs
