@@ -50,3 +50,7 @@ executable aoc9
 executable aoc10
   import: aoc
   main-is: aoc10.hs
+
+executable aoc11
+  import: aoc
+  main-is: aoc11.hs
