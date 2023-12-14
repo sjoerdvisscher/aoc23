@@ -4,12 +4,15 @@ version: 0
 
 common aoc
   ghc-options: -Wall
+  default-extensions: BlockArguments
   build-depends:
     , base
     , text
     , attoparsec
     , containers
     , array
+    , memoize
+    , split
 
 executable aoc1
   import: aoc
@@ -54,3 +57,7 @@ executable aoc10
 executable aoc11
   import: aoc
   main-is: aoc11.hs
+
+executable aoc12
+  import: aoc
+  main-is: aoc12.hs
