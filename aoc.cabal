@@ -65,3 +65,7 @@ executable aoc12
 executable aoc13
   import: aoc
   main-is: aoc13.hs
+
+executable aoc14
+  import: aoc
+  main-is: aoc14.hs
