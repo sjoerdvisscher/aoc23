@@ -13,6 +13,8 @@ common aoc
     , array
     , memoize
     , split
+    , astar
+    , unordered-containers
 
 executable aoc1
   import: aoc
@@ -77,3 +79,7 @@ executable aoc15
 executable aoc16
   import: aoc
   main-is: aoc16.hs
+
+executable aoc17
+  import: aoc
+  main-is: aoc17.hs
