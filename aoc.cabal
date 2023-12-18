@@ -83,3 +83,7 @@ executable aoc16
 executable aoc17
   import: aoc
   main-is: aoc17.hs
+
+executable aoc18
+  import: aoc
+  main-is: aoc18.hs
