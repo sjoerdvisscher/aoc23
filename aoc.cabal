@@ -95,3 +95,7 @@ executable aoc19
 executable aoc20
   import: aoc
   main-is: aoc20.hs
+
+executable aoc21
+  import: aoc
+  main-is: aoc21.hs
