@@ -107,3 +107,7 @@ executable aoc22
 executable aoc23
   import: aoc
   main-is: aoc23.hs
+
+executable aoc24
+  import: aoc
+  main-is: aoc24.hs
