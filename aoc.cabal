@@ -15,6 +15,8 @@ common aoc
     , split
     , astar
     , unordered-containers
+    , sparse-linear-algebra
+    , spectral-clustering
 
 executable aoc1
   import: aoc
@@ -111,3 +113,7 @@ executable aoc23
 executable aoc24
   import: aoc
   main-is: aoc24.hs
+
+executable aoc25
+  import: aoc
+  main-is: aoc25.hs
